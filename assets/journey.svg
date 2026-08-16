@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" role="img" aria-label="Timeline of repository history: 2022 static sites and C++ exercises, 2023 machine learning notebooks, 2024 Flask apps and Keras CNNs, 2026 Django platforms and a Flutter client">
+  <defs>
+    <linearGradient id="jbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#161f38"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.34" stop-color="#a371f7"/>
+      <stop offset="0.67" stop-color="#f0883e"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <pattern id="jdots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="230" rx="22" fill="url(#jbg)"/>
+  <rect width="1200" height="230" rx="22" fill="url(#jdots)"/>
+
+  <rect x="120" y="105" width="960" height="4" rx="2" fill="url(#rail)" opacity="0.85"/>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" text-anchor="middle">
+    <g>
+      <circle cx="160" cy="107" r="15" fill="#0b1120" stroke="#58a6ff" stroke-width="4"/>
+      <circle cx="160" cy="107" r="4.5" fill="#58a6ff"/>
+      <text x="160" y="72" font-size="24" font-weight="700" fill="#58a6ff">2022</text>
+      <text x="160" y="158" font-size="18" fill="#c9d1d9">First static sites</text>
+      <text x="160" y="182" font-size="18" fill="#8b949e">and C++ exercises</text>
+    </g>
+    <g>
+      <circle cx="450" cy="107" r="15" fill="#0b1120" stroke="#a371f7" stroke-width="4"/>
+      <circle cx="450" cy="107" r="4.5" fill="#a371f7"/>
+      <text x="450" y="72" font-size="24" font-weight="700" fill="#a371f7">2023</text>
+      <text x="450" y="158" font-size="18" fill="#c9d1d9">ML notebooks</text>
+      <text x="450" y="182" font-size="18" fill="#8b949e">scikit-learn, pandas</text>
+    </g>
+    <g>
+      <circle cx="740" cy="107" r="15" fill="#0b1120" stroke="#f0883e" stroke-width="4"/>
+      <circle cx="740" cy="107" r="4.5" fill="#f0883e"/>
+      <text x="740" y="72" font-size="24" font-weight="700" fill="#f0883e">2024</text>
+      <text x="740" y="158" font-size="18" fill="#c9d1d9">Flask apps that</text>
+      <text x="740" y="182" font-size="18" fill="#8b949e">serve Keras models</text>
+    </g>
+    <g>
+      <circle cx="1030" cy="107" r="15" fill="#0b1120" stroke="#3fb950" stroke-width="4"/>
+      <circle cx="1030" cy="107" r="4.5" fill="#3fb950"/>
+      <text x="1030" y="72" font-size="24" font-weight="700" fill="#3fb950">2026</text>
+      <text x="1030" y="158" font-size="18" fill="#c9d1d9">Django platforms</text>
+      <text x="1030" y="182" font-size="18" fill="#8b949e">and a Flutter client</text>
+    </g>
+  </g>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#8b949e" opacity="0.6">
+    <text x="40" y="112">git log</text>
+    <text x="1096" y="112">HEAD</text>
+  </g>
+</svg>
