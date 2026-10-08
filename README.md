@@ -195,7 +195,7 @@ repositories are still here; the record is not tidied up.
 <img width="45%" alt="Repositories per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PRiNCeKUsHW&theme=github_dark">
 <img width="45%" alt="Most committed language" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=PRiNCeKUsHW&theme=github_dark">
 
-<img width="92%" alt="Contribution activity graph for PRiNCeKUsHW" src="https://github-readme-activity-graph.vercel.app/graph?username=PRiNCeKUsHW&bg_color=0d1117&color=58a6ff&line=8957e5&point=ffffff&area=true&area_color=1f6feb&hide_border=true">
+<img width="92%" alt="Contribution chart for PRiNCeKUsHW" src="https://ghchart.rshah.org/58a6ff/PRiNCeKUsHW">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PRiNCeKUsHW/PRiNCeKUsHW/output/github-snake-dark.svg">
