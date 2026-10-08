@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="900" height="190" role="img" aria-label="Animated loop: client problem, Python service, model and data, deployed, then feedback back to the client">
+  <style>
+    .bg{fill:#0d1117}
+    .card{fill:#161b22;stroke:#30363d;stroke-width:1.5}
+    .t{font:600 15px 'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif;fill:#e6edf3}
+    .s{font:400 11.5px 'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif;fill:#8b949e}
+    .flow{fill:none;stroke-width:2.5;stroke-dasharray:8 8;animation:dash 1.2s linear infinite}
+    .back{fill:none;stroke:#8957e5;stroke-width:2;stroke-dasharray:4 7;opacity:.8;animation:dash 1.8s linear infinite reverse}
+    @keyframes dash{to{stroke-dashoffset:-32}}
+    .n{animation:pulse 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    .n2{animation-delay:1s}.n3{animation-delay:2s}.n4{animation-delay:3s}
+    @keyframes pulse{0%,70%,100%{stroke:#30363d}15%{stroke:#58a6ff}}
+    .dot{animation:blink 4s ease-in-out infinite}
+    .d2{animation-delay:1s}.d3{animation-delay:2s}.d4{animation-delay:3s}
+    @keyframes blink{0%,70%,100%{opacity:.25}15%{opacity:1}}
+    .lbl{font:italic 400 11px 'Segoe UI',Ubuntu,Helvetica,Arial,sans-serif;fill:#a371f7}
+  </style>
+  <rect class="bg" width="900" height="190" rx="14"/>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#3fb950"/></linearGradient>
+  </defs>
+
+  <!-- forward arrows -->
+  <path class="flow" stroke="#58a6ff" d="M205 75 H245"/>
+  <path class="flow" stroke="#d29922" d="M425 75 H465"/>
+  <path class="flow" stroke="#3fb950" d="M645 75 H685"/>
+  <!-- feedback loop -->
+  <path class="back" d="M775 112 V150 Q775 165 760 165 H130 Q115 165 115 150 V112"/>
+  <text class="lbl" x="450" y="158" text-anchor="middle">feedback from real users → next iteration</text>
+
+  <g>
+    <rect class="card n" x="25" y="38" width="180" height="74" rx="10"/>
+    <circle class="dot" cx="45" cy="58" r="5" fill="#f78166"/>
+    <text class="t" x="58" y="63">Client problem</text>
+    <text class="s" x="45" y="88">sit with users, find the</text>
+    <text class="s" x="45" y="103">real constraint</text>
+  </g>
+  <g>
+    <rect class="card n n2" x="245" y="38" width="180" height="74" rx="10"/>
+    <circle class="dot d2" cx="265" cy="58" r="5" fill="#58a6ff"/>
+    <text class="t" x="278" y="63">Python service</text>
+    <text class="s" x="265" y="88">Django / DRF / Flask API,</text>
+    <text class="s" x="265" y="103">tested, documented</text>
+  </g>
+  <g>
+    <rect class="card n n3" x="465" y="38" width="180" height="74" rx="10"/>
+    <circle class="dot d3" cx="485" cy="58" r="5" fill="#d29922"/>
+    <text class="t" x="498" y="63">Model + data</text>
+    <text class="s" x="485" y="88">ML / LLM behind the API,</text>
+    <text class="s" x="485" y="103">Postgres underneath</text>
+  </g>
+  <g>
+    <rect class="card n n4" x="685" y="38" width="180" height="74" rx="10"/>
+    <circle class="dot d4" cx="705" cy="58" r="5" fill="#3fb950"/>
+    <text class="t" x="718" y="63">Deployed</text>
+    <text class="s" x="705" y="88">live URL, real traffic,</text>
+    <text class="s" x="705" y="103">kept up after launch</text>
+  </g>
+</svg>
